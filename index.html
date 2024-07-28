@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mental Health Support</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Mental Health Support</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="forum.html">Forum</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Welcome to the Mental Health Support Platform</h2>
+            <p>This platform is dedicated to providing mental health resources and support to those in need.</p>
+        </section>
+
+        <section>
+            <h2>Mood Tracker</h2>
+            <form id="mood-form">
+                <label for="mood">Select your current mood:</label>
+                <select id="mood" name="mood">
+                    <option value="Neutral">Neutral</option>
+                    <option value="Sad">Sad</option>
+                    <option value="Anxious">Anxious</option>
+                    <option value="Stressed">Stressed</option>
+                    <option value="Happy">Happy</option>
+                </select>
+                <button type="submit">Add Mood</button>
+            </form>
+            <canvas id="moodChart" width="400" height="200"></canvas>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Mental Health Support</p>
+    </footer>
+
+    <script src="node_modules/chart.js/dist/chart.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>

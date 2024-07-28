@@ -1,0 +1,82 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+
+footer {
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+#directory-list, #resources-list, #forum-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.directory-item, .resource-item, .forum-post, .forum-reply {
+  border: 1px solid #ddd;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.resource-item a, .forum-reply h4 {
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+.forum-reply {
+  border-left: 5px solid #4CAF50;
+  margin-left: 20px;
+  padding-left: 15px;
+}
+
+#personalized-recommendations {
+  margin-top: 20px;
+}
+
+.recommendation-item {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.recommendation-item h3 {
+  margin-top: 0;
+}
